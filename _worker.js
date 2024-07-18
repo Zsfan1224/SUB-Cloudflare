@@ -12,8 +12,6 @@ let timestamp = 1724648076000;//2024-8-26
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@1224.us.kg:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#1224,
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@fbi.gov:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#vpn.zsfan.us.kg,
 https://url.zsfan.us.kg/Base64
 `
 

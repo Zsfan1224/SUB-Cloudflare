@@ -1,19 +1,19 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'auto'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
+let mytoken = 'Zsf13184151020'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'CF-Workers-SUB';
-let SUBUpdateTime = 6; //自定义订阅更新时间，单位小时
+let SUBUpdateTime = 10000; //自定义订阅更新时间，单位小时
 let total = 352;//GB
-let timestamp = 4102329600000;//2024-8-28
+let timestamp = 1724648076000;//2024-8-26
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@1224.us.kg:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#1224
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@fbi.gov:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#vpn.zsfan.us.kg
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@1224.us.kg:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#1224,
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@fbi.gov:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=vpn.zsfan.us.kg&fp=randomized&type=ws&sni=vpn.zsfan.us.kg#vpn.zsfan.us.kg,
 https://url.zsfan.us.kg/Base64
 `
 

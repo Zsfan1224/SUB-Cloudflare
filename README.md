@@ -2,9 +2,6 @@
 
 ### 这个是一个通过 Cloudflare Workers 搭建，将你任意节点与多个订阅汇聚成专属于你的订阅链接
 
-**感谢[Alice Networks](https://alicenetworks.net/)提供的云服务器维持[CM订阅转换服务](https://sub.fxxk.dedyn.io/)！**
-
-## Pages 部署方法 [视频教程](https://youtu.be/9npcBXZTSe4)
 ### 1. 部署 Cloudflare Pages：
    - 在 Github 上先 Fork 本项目，并点上 Star !!!
    - 在 Cloudflare Pages 控制台中选择 `连接到 Git`后，选中 `CF-Workers-SUB`项目后点击 `开始设置`。
@@ -12,12 +9,12 @@
 ### 2. 给 Pages绑定 自定义域：
    - 在 Pages控制台的 `自定义域`选项卡，下方点击 `设置自定义域`。
    - 填入你的自定义次级域名，注意不要使用你的根域名，例如：
-     您分配到的域名是 `fuck.cloudns.biz`，则添加自定义域填入 `sub.fuck.cloudns.biz`即可；
-   - 按照 Cloudflare 的要求将返回你的域名DNS服务商，添加 该自定义域 `sub`的 CNAME记录 `CF-Workers-SUB.pages.dev` 后，点击 `激活域`即可。
+     您分配到的域名是 `zsfan.baidu.com`，则添加自定义域填入 `sub.zsfan.baidu.com`即可；
+   - 按照 Cloudflare 的要求将返回你的域名DNS服务商，添加 该自定义域 `sub`的 CNAME记录 `SUB-Cloudflare.pages.dev` 后，点击 `激活域`即可。
 
 ### 3. 修改 快速订阅入口 ：
 
-  例如您的pages项目域名为：`sub.fuck.cloudns.biz`；
+  例如您的Pages项目域名为：`sub.zsfan.baidu.com`；
    - 添加 `TOKEN` 变量，快速订阅访问入口，默认值为: `auto` ，获取订阅器默认节点订阅地址即 `/auto` ，例如 `https://sub.fuck.cloudns.biz/auto`
 
 ### 4. 添加你的节点和订阅链接：

@@ -32,21 +32,21 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIuWKoOWFpeaIkeeahOmikemBk3QubWUvQ01MaXVz
 ### 1. 部署 Cloudflare Worker：
 
    - 在 Cloudflare Worker 控制台中创建一个新的 Worker。
-   - 将 [worker.js](https://github.com/cmliu/CF-Workers-SUB/blob/main/_worker.js)  的内容粘贴到 Worker 编辑器中。
+   - 将 [worker.js](https://github.com/Zsfan1224/SUB-Cloudflare/blob/main/_worker.js)  的内容粘贴到 Worker 编辑器中。
 
 
 ### 2. 修改 订阅入口 ：
 
-  例如您的workers项目域名为：`sub.cmliussss.workers.dev`；
+  例如您的workers项目域名为：`sub.cloudflare.wokers.dev`；
    - 通过修改 `mytoken` 赋值内容，达到修改你专属订阅的入口，避免订阅泄漏。
      ```
      let mytoken = 'auto';
      ```
      如上所示，你的订阅地址则如下：
      ```url
-     https://sub.cmliussss.workers.dev/auto
+     https://sub.cloudflare.workers.dev/auto
      或
-     https://sub.cmliussss.workers.dev/?token=auto
+     https://sub.cloudflare.workers.dev/?token=auto
      ```
 
 

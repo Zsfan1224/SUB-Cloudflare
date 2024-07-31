@@ -7,8 +7,8 @@ let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
 let FileName = 'BPB-Panel';
 let SUBUpdateTime = 10000; //自定义订阅更新时间，单位小时
-let total = 9;//TB
-let timestamp = 1779513176000;//2024-8-26
+let total = 3;//TB
+let timestamp = 1726042221000;//2024-8-26
 
 //节点链接 + 订阅链接
 let MainData = `

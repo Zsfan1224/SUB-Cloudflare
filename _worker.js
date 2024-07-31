@@ -12,7 +12,6 @@ let timestamp = 1726042221000;//2024-8-26
 
 //节点链接 + 订阅链接
 let MainData = `
-https://url.2332.us.kg/sub/81dc8c3f-8002-4792-b3ee-ed258d6a8d05#BPB-Normal
 http://sub2.cutecloud.net/link/dUcVzE8xnrHt2gZI?clash=1
 http://sub2.cutecloud.net/link/tfeeVmnJBtYtWfdy?clash=1
 `

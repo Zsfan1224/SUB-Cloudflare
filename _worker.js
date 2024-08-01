@@ -5,16 +5,16 @@ let mytoken = 'auto'; //可以随便取，或者uuid生成，https://1024tools.c
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
-let FileName = 'BPB-Panel';
+let FileName = 'IPLE';
 let SUBUpdateTime = 10000; //自定义订阅更新时间，单位小时
 let total = 3;//TB
-let timestamp = 1726042221000;//2024-8-26
+let timestamp = 1754091016000;//2025-8-26
 
 //节点链接 + 订阅链接
 let MainData = `
 http://sub2.cutecloud.net/link/s0ZqP8iUuLgahkpK?clash=1
-https://url.2332.us.kg/sub/81dc8c3f-8002-4792-b3ee-ed258d6a8d05#BPB-Normal
 http://sub2.cutecloud.net/link/IZxT8nCeQhgHUhKj?clash=1
+https://url.2332.us.kg/sub/81dc8c3f-8002-4792-b3ee-ed258d6a8d05#BPB-Normal
 `
 
 let urls = [];

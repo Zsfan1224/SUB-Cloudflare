@@ -12,7 +12,7 @@ let timestamp = 1754091016000;//2025-8-26
 
 //节点链接 + 订阅链接
 let MainData = `
-https://sub.zsfan.us.kg/sub?target=clash&url=http%3A%2F%2Fsub2.cutecloud.net%2Flink%2FROoBK7HlfbiQl7Av%3Fclash%3D1%7Chttp%3A%2F%2Fsub2.cutecloud.net%2Flink%2F2so0o4SjBqEvlyUV%3Fclash%3D1%7Chttp%3A%2F%2Fsub2.cutecloud.net%2Flink%2FnLofCaL4WjyE5565%3Fclash%3D1&insert=false
+http://sub2.cutecloud.net/link/nLofCaL4WjyE5565?clash=1
 `
 
 let urls = [];

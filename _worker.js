@@ -13,8 +13,8 @@ let timestamp = 1754091016000;//2025-8-26
 //节点链接 + 订阅链接
 let MainData = `
 http://sub2.cutecloud.net/link/s0ZqP8iUuLgahkpK?clash=1
-http://sub2.cutecloud.net/link/IZxT8nCeQhgHUhKj?clash=1
 https://url.2332.us.kg/sub/81dc8c3f-8002-4792-b3ee-ed258d6a8d05#BPB-Normal
+http://sub2.cutecloud.net/link/IZxT8nCeQhgHUhKj?clash=1
 `
 
 let urls = [];
